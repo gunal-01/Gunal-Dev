@@ -10,27 +10,33 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: DevPennyUi,
+      src: ModelCourosalWebSite,
+      href: "https://www.figma.com/proto/2j6scjjBiqKrdLmTjIKLFI/model-courosal-website?page-id=0%3A1&node-id=32-480&starting-point-node-id=32%3A480&t=k7wd2ezg84tZzu5a-1",
     },
     {
       id: 2,
-      src: EdedinUi,
+      src: UiDesign1,
+      href: "https://www.figma.com/proto/LqiEJ0FS5sZXd9LyT8dSZ9/Splash-Screen-project?page-id=0%3A1&node-id=8-9&viewport=105%2C-226%2C0.26&t=CpSZ2yyaY217uD1w-1&scaling=min-zoom&starting-point-node-id=6%3A2",
     },
     {
       id: 3,
       src: MusicSiteUi,
+      href:"https://www.figma.com/proto/0CQ70SyNwGDhubFEzwOqVd/demo-site_02?page-id=0%3A1&node-id=1-27&starting-point-node-id=1%3A27&scaling=scale-down&t=W4DkWvJN6HDeDqnU-1",
     },
     {
       id: 4,
       src: ELearningUi,
+      href:"",
     },
     {
       id: 5,
-      src: ModelCourosalWebSite,
+      src: DevPennyUi,
+      href: "",
     },
     {
       id: 6,
-      src: UiDesign1,
+      src: EdedinUi,
+      href: "",
     },
   ];
 
@@ -48,7 +54,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, href}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,12 +62,24 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
+              {href ? (
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                ) : (
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                )}
+
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
+
               </div>
             </div>
           ))}
