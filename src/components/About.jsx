@@ -16,7 +16,7 @@ const About = () => {
         <p className="text-xl mt-20">
         👋 Hey there! I'm a passionate tech enthusiast with a love for problem-solving and competitive programming.
         My primary language is C++, where I thrive in crafting elegant solutions. I've also delved into the world of web development,
-        particularly in TYPESCRIPT and REACT.JS .
+        particularly in JavaScript and REACT.JS .
         </p>
 
         <br />
