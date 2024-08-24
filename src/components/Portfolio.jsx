@@ -12,7 +12,7 @@ const Portfolio = () => {
       id: 1,
       src: Trello,
       href: "https://trello-2-0-build-gunal-01.vercel.app/",
-    }
+    },
     {
       id: 2,
       src: ModelCourosalWebSite,
