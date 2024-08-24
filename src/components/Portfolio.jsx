@@ -12,6 +12,7 @@ const Portfolio = () => {
       id: 1,
       src: Trello,
       href: "https://trello-2-0-build-gunal-01.vercel.app/",
+      codeLink: "https://github.com/gunal-01/trello-app",
     },
     {
       id: 2,
@@ -80,11 +81,20 @@ const Portfolio = () => {
                     Demo
                   </button>
                 )}
-
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
-
+              {codeLink ? (
+                  <a
+                    href={codeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center"
+                  >
+                    Code
+                  </a>
+                ) : (
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Code
+                  </button>
+                  )}
               </div>
             </div>
           ))}
