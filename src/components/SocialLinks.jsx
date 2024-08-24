@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "https://www.gunalprakash006@gmail.com",
+      href: "mailto:gunalprakash006@gmail.com", // Changed to a proper mailto link
     },
     {
       id: 4,
@@ -47,7 +47,8 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="flex flex-col top-[35%] left-0 fixed">
+      {/* Removed lg:hidden to make it visible on all screen sizes */}
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
