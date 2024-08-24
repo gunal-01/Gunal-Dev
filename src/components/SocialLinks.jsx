@@ -47,7 +47,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="fixed flex flex-col top-[35%] left-0 lg:top-auto lg:bottom-0 lg:flex-row lg:justify-center lg:w-full">
+    <div className="flex flex-col top-[35%] right-0 fixed">
       {/* Adjusted positioning based on screen size */}
       <ul>
         {links.map(({ id, child, href, style, download }) => (
