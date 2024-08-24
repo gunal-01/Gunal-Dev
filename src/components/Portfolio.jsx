@@ -16,13 +16,13 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: ModelCourosalWebSite,
-      href: "https://www.figma.com/proto/2j6scjjBiqKrdLmTjIKLFI/model-courosal-website?page-id=0%3A1&node-id=32-480&starting-point-node-id=32%3A480&t=k7wd2ezg84tZzu5a-1",
+      src: UiDesign1,
+      href: "https://www.figma.com/proto/LqiEJ0FS5sZXd9LyT8dSZ9/Splash-Screen-project?page-id=0%3A1&node-id=8-9&viewport=105%2C-226%2C0.26&t=CpSZ2yyaY217uD1w-1&scaling=min-zoom&starting-point-node-id=6%3A2",
     },
     {
       id: 3,
-      src: UiDesign1,
-      href: "https://www.figma.com/proto/LqiEJ0FS5sZXd9LyT8dSZ9/Splash-Screen-project?page-id=0%3A1&node-id=8-9&viewport=105%2C-226%2C0.26&t=CpSZ2yyaY217uD1w-1&scaling=min-zoom&starting-point-node-id=6%3A2",
+      src: ModelCourosalWebSite,
+      href: "https://www.figma.com/proto/2j6scjjBiqKrdLmTjIKLFI/model-courosal-website?page-id=0%3A1&node-id=32-480&starting-point-node-id=32%3A480&t=k7wd2ezg84tZzu5a-1",
     },
     {
       id: 4,
