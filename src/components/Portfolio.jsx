@@ -39,11 +39,6 @@ const Portfolio = () => {
       src: DevPennyUi,
       href: "",
     },
-    {
-      id: 7,
-      src: EdedinUi,
-      href: "",
-    },
   ];
 
   return (
