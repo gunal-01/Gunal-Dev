@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        👋 Hey there! I'm a passionate tech enthusiast with a love for problem-solving and competitive programming.
+        Hey there! I'm a passionate tech enthusiast with a love for problem-solving and competitive programming.
         My primary language is C++, where I thrive in crafting elegant solutions. I've also delved into the world of web development,
         particularly in JavaScript and REACT.JS .
         </p>
@@ -22,7 +22,7 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-        🚀 I enjoy the dynamic nature of tech, and my curiosity drives me to constantly explore new technologies and venture into diverse fields.
+        I enjoy the dynamic nature of tech, and my curiosity drives me to constantly explore new technologies and venture into diverse fields.
         HTML and CSS are part of my toolkit, figma is adding that extra layer to my skill set.
         </p>
       </div>
